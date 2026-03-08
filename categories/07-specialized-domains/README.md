@@ -36,6 +36,11 @@ Fintech expert building secure, compliant financial applications. Masters paymen
 
 **Use when:** Building payment systems, implementing banking features, ensuring financial compliance, integrating financial APIs, or developing trading platforms.
 
+### [**ignition-engineer**](ignition-engineer.md) - Ignition SCADA/HMI/MES platform specialist
+Ignition platform expert building industrial automation solutions with Inductive Automation's Ignition. Masters gateway configuration, Perspective/Vision development, tag systems, OPC-UA integration, alarming, and Jython scripting. Delivers reliable SCADA/HMI/MES systems for production environments.
+
+**Use when:** Developing Ignition projects, configuring OPC-UA device connections, building Perspective or Vision screens, designing tag architectures, setting up alarm pipelines, or scripting with Jython in the Ignition platform.
+
 ### [**game-developer**](game-developer.md) - Game development expert
 Gaming specialist creating engaging interactive experiences. Expert in game engines, real-time networking, and performance optimization. Builds games that captivate players.
 
@@ -80,6 +85,7 @@ SEO expert driving organic traffic through search optimization. Masters technica
 | Embedded/IoT | **embedded-systems** | Firmware, microcontrollers |
 | Financial Tech | **fintech-engineer** | Banking, payments, compliance |
 | Gaming | **game-developer** | Game engines, multiplayer |
+| Ignition/SCADA | **ignition-engineer** | HMI, OPC-UA, alarming |
 | IoT/Connected | **iot-engineer** | Device clouds, sensors |
 | Mobile Apps | **mobile-app-developer** | iOS/Android apps |
 | Payments | **payment-integration** | Payment gateways, PCI |
@@ -100,6 +106,12 @@ SEO expert driving organic traffic through search optimization. Masters technica
 - **embedded-systems** for devices
 - **mobile-app-developer** for apps
 - **api-documenter** for APIs
+
+**Industrial Automation (SCADA/HMI):**
+- **ignition-engineer** for Ignition platform development
+- **iot-engineer** for IIoT and edge architecture
+- **embedded-systems** for PLC and controller integration
+- **api-documenter** for system integration APIs
 
 **Blockchain Project:**
 - **blockchain-developer** for smart contracts
