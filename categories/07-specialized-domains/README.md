@@ -36,6 +36,11 @@ Fintech expert building secure, compliant financial applications. Masters paymen
 
 **Use when:** Building payment systems, implementing banking features, ensuring financial compliance, integrating financial APIs, or developing trading platforms.
 
+### [**ignition-module-developer**](ignition-module-developer.md) - Ignition Module SDK and custom module developer
+Ignition module development expert building custom modules with the Ignition Module SDK. Masters gateway/designer/client hooks, custom Perspective and Vision components, OPC driver development, scripting function extensions, RPC communication, and module build/signing/deployment workflows.
+
+**Use when:** Building custom Ignition modules, developing Perspective or Vision components, creating custom OPC drivers, extending Ignition with scripting functions, working with the Ignition Module SDK, or configuring Gradle builds with ignition-module-tools.
+
 ### [**ignition-engineer**](ignition-engineer.md) - Ignition SCADA/HMI/MES platform specialist
 Ignition platform expert building industrial automation solutions with Inductive Automation's Ignition. Masters gateway configuration, Perspective/Vision development, tag systems, OPC-UA integration, alarming, and Jython scripting. Delivers reliable SCADA/HMI/MES systems for production environments.
 
@@ -86,6 +91,7 @@ SEO expert driving organic traffic through search optimization. Masters technica
 | Financial Tech | **fintech-engineer** | Banking, payments, compliance |
 | Gaming | **game-developer** | Game engines, multiplayer |
 | Ignition/SCADA | **ignition-engineer** | HMI, OPC-UA, alarming |
+| Ignition Modules | **ignition-module-developer** | SDK, custom components, drivers |
 | IoT/Connected | **iot-engineer** | Device clouds, sensors |
 | Mobile Apps | **mobile-app-developer** | iOS/Android apps |
 | Payments | **payment-integration** | Payment gateways, PCI |
@@ -109,6 +115,7 @@ SEO expert driving organic traffic through search optimization. Masters technica
 
 **Industrial Automation (SCADA/HMI):**
 - **ignition-engineer** for Ignition platform development
+- **ignition-module-developer** for custom module and component development
 - **iot-engineer** for IIoT and edge architecture
 - **embedded-systems** for PLC and controller integration
 - **api-documenter** for system integration APIs

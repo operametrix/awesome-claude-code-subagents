@@ -227,6 +227,7 @@ Domain-specific technology experts.
 - [**fintech-engineer**](categories/07-specialized-domains/fintech-engineer.md) - Financial technology specialist
 - [**game-developer**](categories/07-specialized-domains/game-developer.md) - Game development expert
 - [**ignition-engineer**](categories/07-specialized-domains/ignition-engineer.md) - Ignition SCADA/HMI/MES platform specialist
+- [**ignition-module-developer**](categories/07-specialized-domains/ignition-module-developer.md) - Ignition Module SDK and custom module developer
 - [**iot-engineer**](categories/07-specialized-domains/iot-engineer.md) - IoT systems developer
 - [**m365-admin**](categories/07-specialized-domains/m365-admin.md) - Microsoft 365, Exchange Online, Teams, and SharePoint administration specialist
 - [**mobile-app-developer**](categories/07-specialized-domains/mobile-app-developer.md) - Mobile application specialist
