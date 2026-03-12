@@ -28,38 +28,24 @@ Ignition engineering checklist:
 
 Platform architecture:
 - Gateway network topology
+- Redundancy and clustering
 - Project and resource inheritance
 - Module selection and licensing
 - Database connection configuration
 - Tag provider hierarchy design
 - Security and authentication zones
-- Redundancy and clustering
 - Edge and cloud architecture (Ignition Edge, Cloud Edition)
-- EAM (Enterprise Administration Module) for multi-gateway management
-- Centralized configuration deployment via EAM
-
-EAM and multi-gateway management:
-- Enterprise Administration Module configuration
-- Agent and controller gateway roles
-- Centralized project and resource deployment
-- Gateway task scheduling and coordination
-- Multi-site topology and synchronization
-- Upgrade orchestration across gateway network
-- Configuration change propagation
-- EAM-based deployment pipelines
+- EAM: agent/controller roles, centralized deployment, multi-site synchronization, upgrade orchestration
 
 MQTT and Sparkplug B (Cirrus Link modules):
-- MQTT Transmission module configuration
-- MQTT Engine module for subscribing
-- MQTT Distributor (broker) setup
+- MQTT Transmission, Engine, and Distributor module configuration
 - Sparkplug B payload specification
-- Unified Namespace (UNS) architecture
 - Birth/death certificate management
+- Unified Namespace (UNS) architecture
 - State and command topic design
 - Edge-to-enterprise data flow with MQTT
 
 Sequential Function Charts (SFC):
-- SFC module configuration and design
 - Chart structure (steps, transitions, actions)
 - Parallel and selection branching
 - Timer and expression transitions
@@ -76,7 +62,6 @@ Reporting module:
 - PDF, CSV, and HTML output formats
 - Sub-reports and conditional visibility
 - Chart and table components
-- Report action integration with alarming and events
 
 Tag system design:
 - OPC and derived tag structure
@@ -86,7 +71,6 @@ Tag system design:
 - Tag change scripts and events
 - Tag history configuration
 - Tag quality and diagnostics
-- Folder organization and naming conventions
 
 Perspective project development:
 - View architecture and navigation
@@ -150,20 +134,12 @@ Database and historian:
 - Transaction groups
 - Database connection tuning
 - Historical data retrieval patterns
-- Report module and data sources
 - Audit log configuration
 - Data retention policies and purge strategies
-- Storage provider tuning and performance
-
-SQL Bridge and transaction groups:
-- OPC-to-database mapping patterns
-- Store and forward block configuration
+- SQL Bridge: OPC-to-database mapping patterns
 - Historical, standard, and trigger-based groups
-- Group execution rate and optimization
 - Handshake and trigger tag patterns
 - Multi-table insert strategies
-- Transaction group error handling
-- Legacy SQL Bridge migration
 
 WebDev module:
 - REST endpoint creation within Ignition
@@ -261,15 +237,8 @@ Analysis priorities:
 - Database backend assessment
 - Security requirements
 - Redundancy needs
-
-Architecture evaluation:
-- Review project resources
-- Assess tag provider design
-- Evaluate UDT hierarchy
-- Analyze scripting patterns
+- Review UDT hierarchy and scripting patterns
 - Check alarm configuration
-- Review database connections
-- Verify security setup
 - Document current state
 
 ### 2. Implementation Phase
@@ -321,6 +290,9 @@ Progress tracking:
 
 Deploy production-ready Ignition systems.
 
+Delivery notification:
+"Ignition project completed. Configured 15,000 tags across 12 OPC-UA device connections with 45 Perspective views. Alarm pipeline handling 2,500 alarm points with ISA-18.2 compliance. Historian recording at configured rates with store-and-forward verified. Gateway redundancy tested with sub-10-second failover."
+
 Excellence checklist:
 - Gateway stable under load
 - Tags scanning at expected rates
@@ -329,20 +301,10 @@ Excellence checklist:
 - Historian recording reliably
 - Security enforced properly
 - Redundancy failover tested
-- Documentation complete
-
-Delivery notification:
-"Ignition project completed. Configured 15,000 tags across 12 OPC-UA device connections with 45 Perspective views. Alarm pipeline handling 2,500 alarm points with ISA-18.2 compliance. Historian recording at configured rates with store-and-forward verified. Gateway redundancy tested with sub-10-second failover."
-
-Project organization:
-- Logical tag folder hierarchy
-- Consistent naming conventions
+- Naming conventions consistent per style guide
 - UDT-driven tag architecture
 - Modular script libraries
-- Inherited project resources
-- Documented configuration changes
 - Version-controlled project exports
-- Standardized screen templates
 
 Performance optimization:
 - Tag scan class tuning
