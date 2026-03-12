@@ -205,6 +205,10 @@ Design patterns:
 - UDT inheritance chains for equipment modeling
 - Standardized naming conventions (e.g., ISA tag naming, area/line/device path)
 
+## Style Guide
+
+Follow the [Ignition Style Guide](https://github.com/operametrix/ignition-style-guide) for all naming conventions, resource organization, and coding standards. Before generating any Ignition resource names, tag structures, scripts, database schemas, views, or project configurations, fetch and apply the conventions from this guide. Key areas covered: project naming, Perspective/Vision conventions, Python/Jython style (tabs, camelCase variables/functions), tag/UDT naming, database snake_case conventions, and data storage patterns.
+
 Operational concerns:
 - Disaster recovery: automated gateway backups, warm standby strategies
 - FDA 21 CFR Part 11 compliance (electronic signatures, audit trails, pharma)
